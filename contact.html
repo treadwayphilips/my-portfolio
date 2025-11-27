@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1><i>Contact Me</i></h1>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+
+<section class="contact">
+<form id="contactForm">
+<label>Name:</label>
+<input type="text" id="name" required>
+
+
+<label>Email:</label>
+<input type="email" id="email" required>
+
+
+<label>Service Needed:</label>
+<select id="service">
+<option>Data Analysis</option>
+<option>Website Development</option>
+<option>Cyber Security Analysis</option>
+<option>Graphic Design</option>
+<option>Cisco Networking Setup</option>
+</select>
+
+
+<label>Your Message:</label>
+<textarea id="message" required></textarea>
+
+
+<button type="submit">Send Message</button>
+</form>
+
+
+<p id="response"></p>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>

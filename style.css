@@ -1,0 +1,51 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background: #f5f5f5;
+}
+header {
+background: #ad0188;
+color: white;
+padding: 20px;
+text-align: center;
+}
+nav ul {
+list-style: none;
+padding: 0;
+}
+nav ul li {
+display: inline;
+margin: 0 15px;
+}
+nav ul li a {
+color: white;
+text-decoration: none;
+}
+.hero {
+padding: 60px;
+text-align: center;
+background: #460042;
+color: white;
+}
+.services, .about, .contact {
+padding: 60px;
+}
+.card {
+background: rgb(230, 230, 230);
+padding: 30px;
+margin: 30px 0;
+border-radius: 5px;
+box-shadow: 0px 0px 5px #ccc;
+}
+form input, form textarea, form select {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+}
+button {
+background: #880966;
+color: rgb(236, 227, 227);
+padding: 10px 20px;
+border: none;
+}
